@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(226, 186, 217);
+}
+.encabezado  {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #dba0d3;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.encabezado a{
+padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #5a1d56;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  }
+
+.producto {
+  position: relative;
+  max-width: 300px;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 20px;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.insignia {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #c0392b;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  /display: none;/
+}
+
+.boton-flotante {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #25d366;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 999px;
+  z-index: 150
+}
